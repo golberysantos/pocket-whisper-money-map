@@ -13,3 +13,6 @@
 ## Configuração do contato e administrador
 - [x] Configurar o WhatsApp informado: 55 92 91147485
 - [x] Conceder e verificar acesso administrativo para a conta informada
+
+## Documentação
+- [x] README atualizado com a versão atual do MVP (rotas `/`, `/admin`, `/app`, `/cofrinhos`, formulário, painel, dados, como rodar)
