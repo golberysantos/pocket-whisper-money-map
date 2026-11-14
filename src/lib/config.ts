@@ -1,7 +1,6 @@
 // Configurações comerciais do Bolso em Dia.
-// IMPORTANTE: substitua pelo número real do WhatsApp da empresa
-// (código do país + DDD + número, somente dígitos).
-export const WHATSAPP_NUMBER = "5511999999999";
+// Código do país + DDD + número, somente dígitos, conforme informado.
+export const WHATSAPP_NUMBER = "559291147485";
 
 // Mensagem genérica de início de conversa — NÃO incluir dados pessoais
 // nem respostas do formulário aqui (eles iriam para a URL).

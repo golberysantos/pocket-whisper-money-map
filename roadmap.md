@@ -10,6 +10,6 @@
 - [x] Testes manuais no navegador (mobile, validação, WhatsApp, bloqueio do admin, fluxo admin)
 - [x] Atualização de segurança dos pacotes TanStack
 
-## Pendências externas (aguardando o usuário)
-- Número real do WhatsApp da empresa (placeholder em `src/lib/config.ts`)
-- Criar a conta de administrador real em More → Users → Add user e conceder o papel de admin
+## Configuração do contato e administrador
+- [x] Configurar o WhatsApp informado: 55 92 91147485
+- [x] Conceder e verificar acesso administrativo para a conta informada
