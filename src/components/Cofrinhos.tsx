@@ -83,7 +83,7 @@ export function Cofrinhos() {
             </div>
           </div>
           <nav className="flex items-center gap-2">
-            <Link to="/">
+            <Link to="/app">
               <Button
                 variant="ghost"
                 className="h-9 gap-2 rounded-lg text-sm font-medium text-slate-600"

@@ -182,7 +182,7 @@ export function MinhaCarteira() {
             </div>
           </div>
           <nav className="flex items-center gap-2">
-            <Link to="/">
+            <Link to="/app">
               <Button
                 variant="ghost"
                 className="h-9 gap-2 rounded-lg bg-[#22C55E]/10 text-sm font-medium text-[#16A34A]"

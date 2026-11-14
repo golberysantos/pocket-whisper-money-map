@@ -78,18 +78,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Minha Carteira — Finanças Pessoais" },
+      { title: "Bolso em Dia — Organização financeira com acompanhamento" },
       {
         name: "description",
         content:
-          "Controle suas finanças pessoais com assistente inteligente e metas de economia.",
+          "Organize seu dinheiro com um plano simples e acompanhamento pelo WhatsApp.",
       },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Minha Carteira — Finanças Pessoais" },
+      { name: "author", content: "Bolso em Dia" },
+      {
+        property: "og:title",
+        content: "Bolso em Dia — Organização financeira com acompanhamento",
+      },
       {
         property: "og:description",
         content:
-          "Controle suas finanças pessoais com assistente inteligente e metas de economia.",
+          "Organize seu dinheiro com um plano simples e acompanhamento pelo WhatsApp.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -123,7 +126,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>

@@ -1,28 +1,27 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MinhaCarteira } from "@/components/MinhaCarteira";
+import { LandingPage } from "@/components/LandingPage";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Minha Carteira — Finanças Pessoais" },
+      { title: "Bolso em Dia — Organização financeira com acompanhamento" },
       {
         name: "description",
         content:
-          "Controle suas finanças pessoais com assistente inteligente e metas de economia.",
+          "Organize seu dinheiro com um plano simples e acompanhamento pelo WhatsApp. Para quem está começando a organizar as finanças.",
       },
-      { property: "og:title", content: "Minha Carteira — Finanças Pessoais" },
+      {
+        property: "og:title",
+        content: "Bolso em Dia — Organização financeira com acompanhamento",
+      },
       {
         property: "og:description",
         content:
-          "Controle suas finanças pessoais com assistente inteligente e metas de economia.",
+          "Organize seu dinheiro com um plano simples e acompanhamento pelo WhatsApp. Para quem está começando a organizar as finanças.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
   }),
-  component: Index,
+  component: LandingPage,
 });
-
-function Index() {
-  return <MinhaCarteira />;
-}

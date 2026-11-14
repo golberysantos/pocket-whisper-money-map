@@ -4,13 +4,13 @@ import { Cofrinhos } from "@/components/Cofrinhos";
 export const Route = createFileRoute("/cofrinhos")({
   head: () => ({
     meta: [
-      { title: "Cofrinhos Inteligentes — Minha Carteira" },
+      { title: "Cofrinhos Inteligentes — Bolso em Dia" },
       {
         name: "description",
         content:
           "Crie cofrinhos inteligentes e guarde dinheiro para seus objetivos com a ajuda do assistente financeiro.",
       },
-      { property: "og:title", content: "Cofrinhos Inteligentes — Minha Carteira" },
+      { property: "og:title", content: "Cofrinhos Inteligentes — Bolso em Dia" },
       {
         property: "og:description",
         content:
